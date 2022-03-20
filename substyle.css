@@ -1,0 +1,16 @@
+.title {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.text {
+	font-family: 'Jua', sans-serif;
+	text-decoration:none;
+	font-size: 5vw;
+	color: black;
+}
+
+.btn {
+	background-color: #93FB93;
+	padding: 3vw;
+}

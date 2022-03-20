@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="substyle.css" />
+	</head>
+	<body>
+		<style>
+			.title {
+				font-weight: bold;
+				font-size: 30px;
+			}
+
+			.text {
+				font-family: 'Jua', sans-serif;
+				text-decoration: none;
+				font-size: 2vw;
+				color: black;
+			}
+
+			.btn {
+				background-color: #93fb93;
+				padding: 1.5vw;
+				border: 0px;
+				border-radius: 1vw;
+				font-family: 'Jua', sans-serif;
+				text-decoration: none;
+				font-size: 1vw;
+				color: black;
+				cursor: pointer;
+			}
+		</style>
+		<button class="btn" id="print">
+			인쇄하기
+		</button>
+		<h1 class="text">
+			privacy - ⓝ사생활<br /><span style="color: #5ec75e;">[프라이버시]</span>
+		</h1>
+		<h1 class="text">
+			social - ⓐ사귀는 ⓝ친목회 ⓐ사회의 ⓐ사교적인 ⓐ사회주의의 ⓝ친목회<br /><span
+				style="color: #5ec75e;"
+				>[소셜]</span
+			>
+		</h1>
+		<h1 class="text">
+			practice - ⓝ관습 ⓝ행위 ⓝ실천(하다) ⓝ연습(하다)<br />
+			<span style="color: #5ec75e;">[ㅍ렉티스]</span>
+		</h1>
+		<script>
+			$('#print').on('click', function () {
+				print();
+			});
+		</script>
+	</body>
+</html>
